@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura da Página</title>
+    <style>
+        body {
+            display: grid;
+            grid-template-areas:
+                "header header header"
+                "nav nav nav"
+                "main main aside"
+                "footer footer footer";
+            grid-gap: 10px;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            grid-area: header;
+            background: url('header-image.jpg') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        nav {
+            grid-area: nav;
+            background: url('nav-image.jpg') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        main {
+            grid-area: main;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+        }
+        aside {
+            grid-area: aside;
+            padding: 20px;
+            background-color: #e0e0e0;
+            border-radius: 10px;
+        }
+        footer {
+            grid-area: footer;
+            background: url('footer-image.jpg') no-repeat center center;
+            background-size: cover;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            margin: 0;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título Centralizado</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Conteúdo Principal</h2>
+        <p>Texto principal da página.</p>
+    </main>
+    <aside>
+        <h3>Links Adicionais</h3>
+        <ul>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+            <li><a href="#">Link 6</a></li>
+        </ul>
+    </aside>
+    <footer>
+        <p>Informações da empresa ou de quem criou a página.</p>
+    </footer>
+</body>
+</html>

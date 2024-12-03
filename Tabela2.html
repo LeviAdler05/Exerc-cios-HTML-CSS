@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Treinamento, Tabelas" >
+    <title>Treinando</title>
+</head>
+<div class="tudo">
+<body>
+    <center><h1>Criando tabela</h1></center>
+    <style>
+        table, tr, th, td, tfoot,caption{
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+            border-style: solid;
+            border: 2px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td{
+            text-align: center;
+            background-color: rgb(214, 214, 116);
+    
+        }
+        th{
+            background-color: gray;
+            color:yellow;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        td{
+            font-size: 20px;
+        }
+        td#total{
+            font-size: 25px;
+            background-color: rgb(85, 85, 85);
+        }
+        th#fatura{
+            border-color: white;
+            font-style: italic;
+
+        }
+        caption{
+            border:16px;
+            border-style: solid;
+            background-color: rgb(153, 153, 153);
+            border-color: rgb(37, 37, 37);
+            border-left-color: rgb(182, 182, 182);
+            border-right-color: rgb(72, 72, 72);
+            border-top-color:rgb(221, 221, 221);
+            border-collapse: collapse;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bold;
+            color: rgb(255, 255, 100);
+        }
+    </style>
+
+    <div class="tabela">
+
+    <table border="solid" >
+
+        <caption>
+            Fatura
+        </caption>
+        
+        <tr>
+            <th>Item</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+            <th>Soma</th>
+        </tr>
+        <tr>
+            <td>Coxinha</td>
+            <td>03</td>
+            <td>5.00</td>
+            <td>15.00</td>
+        </tr>
+        <tr>
+            <td>Empadinha</td>
+            <td>01</td>
+            <td>7.00</td>
+            <td>7.00</td>    
+        </tr>
+        <tr>
+            <td>Refrigerante</td>
+            <td>02</td>
+            <td>3.00</td>
+            <td>6.00</td>
+        </tr>
+        
+        <tfoot>
+            <tr>
+                <td id="total" colspan="3">Total</td>
+                <td id="total">28.00</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    </div>

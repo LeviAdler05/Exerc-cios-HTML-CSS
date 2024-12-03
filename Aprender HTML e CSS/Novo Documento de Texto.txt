@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revista sobre Naruto</title>
+    <style>
+        .cabeçalho {
+            background-image: url('https://www.folhadelondrina.com.br/img/Artigo-Destaque/3240000/Naruto-vai-virar-live-action-na-esteira-de-outras-0324687900202402251614.jpg?xid=6046279');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            margin: 10px;
+        }
+        .titulo {
+            width: 100%;
+            color: white;
+            background-color: rgba(0,0,0,0.65);
+            text-align: center;
+            font-size: 30px;
+            border-radius: 30px;    
+            font-family: "Times New Roman", Times, serif;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+        
+        body {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .navegação ul {
+            list-style-type: none;
+            background-color: rgb(26, 255, 0);
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .navegação a {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+            display: flex;
+        }
+        .alinhar {
+            display: flex;
+        }
+        .navegação a:hover {
+            background-color: rgba(67, 61, 255, 0.925);
+        }
+        .cab {
+            background-color: rgb(42, 42, 42);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            padding: 3px;
+        }
+        .arti, .arti2 {
+            background-image: linear-gradient(to right, rgb(237, 237, 13), rgb(255, 166, 0), rgb(255, 42, 0));
+            padding: 20px;
+            text-align: center;
+            font-size: 25px;
+            height: auto;
+            margin: 5px;
+        }
+        .arti img, .arti2 img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .rdp {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.87);
+            padding: 5px;
+        }
+        .rdp a {
+            color: darkgoldenrod;
+        }
+        .sec {
+            border: 1px solid white;
+            margin-bottom: 20px;
+        }
+        .lateral {
+            width: 20%;
+            background-image: radial-gradient(circle, rgb(166, 255, 93), rgb(67, 50, 255), rgb(245, 245, 61));
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 5px;
+            border-radius: 30px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .lateral h3 {
+            text-shadow: 1px 1px 2px chocolate;
+            font-size: 25px;
+            padding: 5px;
+        }
+        .lateral a {
+            color: darkgoldenrod;
+            padding: 5px;
+        }
+        .principal {
+            width: 75%;
+        }
+        .ladoalado {
+            display: flex;
+        }
+        .rodapé a {
+            color: black;
+            padding: 15px;
+            font-size: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="cabeçalho">
+        <section class="titulo">
+            <h1>Naruto Uzumaki e Sasuke Uchiha</h1>
+        </section>
+    </header>
+    <section class="ladoalado">
+        <aside class="lateral">
+            <h3>Naruto é um anime que narra a jornada de Naruto Uzumaki, um jovem ninja da Vila Oculta da Folha, em busca do sonho de se tornar um Hokage.</h3>
+            <p>Descubra mais sobre a história no link abaixo</p>
+            <a href="https://www.coxinhanerd.com.br/historia-de-naruto/">clique aqui</a>
+        </aside>
+        <main class="principal">  
+            <section class="sec">
+                <header class="cab">
+                    <h2>Naruto Uzumaki</h2>
+                </header>
+                <article class="arti">
+                    <img src="https://static.wikia.nocookie.net/naruto/images/3/33/Naruto_Uzumaki_%28Parte_I_-_HD%29.png/revision/latest/scale-to-width-down/1200?cb=20160316113315&path-prefix=pt-br" width="250" height="200" alt="Naruto Uzumaki">
+                    <p>Naruto é um personagem inspirador que representa a superação, a perseverança e o poder da amizade. Sua história impactou milhões de fãs em todo o mundo, e tornou-se um símbolo de esperança e determinação dentre os mais jovens até os mais velhos.</p>
+                </article>
+                <footer class="rdp">
+                    <a href="https://naruto.fandom.com/wiki/Naruto_Uzumaki">Leia mais</a>
+                </footer>
+            </section>
+            <section class="sec">
+                <header class="cab">
+                    <h2>Sasuke Uchiha</h2>
+                </header>
+                <article class="arti2">
+                    <img src="https://preview.redd.it/r3b2ic3lylw61.jpg?auto=webp&s=6b78275917898bdcd7374fb35a122d6e20e62a14" width="250" height="200" alt="Sasuke Uchiha">
+                    <p>Sasuke é conhecido por suas habilidades ninjas excepcionais e sua busca por vingança contra seu irmão, Itachi, pelo massacre de seu clã. Ao longo da série, ele passa por uma jornada de conflito interno, redenção e busca por poder, eventualmente encontrando um caminho de reconciliação com seu passado e seus amigos.</p>
+                </article>
+                <footer class="rdp">
+                    <a href="https://naruto.fandom.com/wiki/Sasuke_Uchiha">Continue lendo</a>
+                </footer>
+            </section>
+        </main>
+    </section>
+    <nav class="navegação">
+        <ul class="alinhar">
+            <li><a href="https://www.coxinhanerd.com.br/historia-de-naruto/">Youtube</a></li>
+            <li><a href="https://naruto.fandom.com/pt-br/wiki/Wiki_Naruto">Fandom</a></li>
+            <li><a href="https://canaltech.com.br/games/5-melhores-jogos-de-naruto-194575/">Jogos</a></li>
+            <li><a href="https://www.crunchyroll.com/pt-br/series/GY9PJ5KWR/naruto">Crunchyroll</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

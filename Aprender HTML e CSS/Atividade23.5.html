@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Semânticas</title>
+    <style>
+        .cabeçalho {
+            background-image: url("livros.jpg");
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            height: 300px;
+            margin: 10px;
+        }
+        .titulo {
+            width: 100%;
+            color: white;
+            background-color: rgba(0,0,0,0.65);
+            text-align: center;
+            font-size: 30px;
+            border-radius: 30px;    
+            font-family: "Times New Roman", Times, serif;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+        }
+        
+        body {
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .navegação ul {
+            list-style-type: none;
+            background-color: lightyellow;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .navegação a {
+            text-decoration: none;
+            color: black;
+            padding: 15px;
+            font-family: "Times New Roman", Times, serif;
+            text-align: center;
+            display: flex;
+        }
+        .alinhar {
+            display: flex;
+        }
+        .navegação a:hover {
+            background-color: rgba(229, 255, 0, 0.925);
+        }
+        .cab {
+            background-color: black;
+            color: darkkhaki;
+            text-align: center;
+            padding: 5px;
+        }
+        .arti {
+            background-image: linear-gradient(to right, rgb(243, 243, 191),
+            rgb(247, 247, 127), rgb(245, 245, 61));
+            padding: 10px;
+            text-align: center;
+        }
+        .rdp {
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.87);
+            padding: 5px;
+        }
+        .rdp a {
+            color: darkgoldenrod;
+        }
+        .sec {
+            border: 1px solid white;
+            margin-bottom: 20px;
+        }
+        .lateral {
+            width: 20%;
+            background-image: radial-gradient(circle, rgb(243, 243, 191),
+            rgb(247, 247, 127), rgb(245, 245, 61));
+            color: darkgoldenrod;
+            text-align: center;
+            padding: 5px;
+            border-radius: 30px;
+            border: 1px solid black;
+            margin-bottom: 20px;
+            width: 20%;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .lateral h3 {
+            text-shadow: 1px 1px 2px chocolate;
+            font-size: 25px;
+            padding: 5px;
+        }
+        .lateral a {
+            color: darkgoldenrod;
+            padding: 5px;
+        }
+        .principal {
+            width: 80%;
+        }
+        .ladoalado {
+            display: flex;
+        }
+        .rodapé {
+            background-color: rgb(214, 218, 8);
+            height: 50px;
+            font-size: 20px
+            text-align: center;
+        }
+        .rodapé a {
+            color: black
+            padding: 15px;
+            font-size: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header class="cabeçalho">
+        <section class="titulo">
+            <h1>Aprendendo online</h1>
+        </section>
+    </header>
+    <nav class="navegação">
+        <ul class="alinhar">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="midia.html">Mídia</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+    <section class="ladoalado">
+        <main class="principal">  
+            <section class="sec">
+                <header class="cab">
+                    <h2>Aprenda HTML</h2>
+                </header>
+                <article class="arti">
+                    <p>Aprenda a criar a estrutura e conteúdo de 
+                    uma página web</p>
+                </article>
+                <footer class="rdp">
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics">link HTML</a>
+                </footer>
+            </section>
+            <section class="sec">
+                <header class="cab">
+                    <h2>Aprenda CSS</h2>
+                </header>
+                <article class="arti">
+                    <p>Aprenda a estilizar uma página web</p>
+                </article>
+                <footer class="rdp">
+                    <a href="https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics">link CSS</a>
+                </footer>
+            </section>
+        </main>
+        <aside class="lateral">
+            <h3>Conheça a primeira página web feita com HTML</h3>
+            <p>A página ficou online na data de 6 de agosto de 1991
+                e foi criada por Tim Berners-Lee</p>
+            <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">clique aqui</a>
+        </aside>
+    </section>
+    <footer class="rodapé"
+        <p>Sites associados:</p>
+        <a href="dominio.html">Compre um domínio</a>
+        <a href="servidor.html">Escolha um servidor</a>
+    </footer>
+</body>
+</html>
